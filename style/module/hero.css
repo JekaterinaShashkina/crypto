@@ -1,0 +1,90 @@
+.hero {
+  background-color: black;
+  background-image: url("/img/background.jpg");
+  background-size: cover;
+  background-position: center;
+  max-width: 1440px;
+}
+.hero__container {
+  padding-top: 127px;
+  padding-bottom: 127px;
+}
+
+.hero__title {
+  margin-bottom: 18px;
+  font-weight: 700;
+  font-size: 100px;
+  line-height: 121px;
+  color: #55c2ff;
+}
+.hero__subtitle {
+  max-width: 480px;
+  color: #fff;
+  font-family: "IBM Plex Sans";
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 29px;
+  margin-bottom: 50px;
+}
+
+.hero__btn {
+  background-color: #55c2ff;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  padding: 11px;
+  max-width: 232px;
+  width: 100%;
+  color: #fff;
+  border-radius: 8px;
+  border: none;
+}
+
+@media (max-width: 1024px) {
+  .hero__container {
+    padding-top: 92px;
+    padding-bottom: 92px;
+  }
+  .hero__subtitle {
+    margin-bottom: 30px;
+  }
+}
+@media (max-width: 768px) {
+  .hero__container {
+    padding-top: 81px;
+    padding-bottom: 81px;
+  }
+  .hero__title {
+    font-size: 60px;
+    line-height: 73px;
+    margin-bottom: 10px;
+  }
+  .hero__subtitle {
+    max-width: 354px;
+    font-size: 16px;
+    line-height: 21px;
+    margin-bottom: 25px;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero__container {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .hero__title {
+    font-size: 40px;
+    line-height: 48px;
+  }
+  .hero__subtitle {
+    max-width: 230px;
+  }
+
+  .hero__btn {
+    font-size: 12px;
+    line-height: 15px;
+    padding: 10px;
+    max-width: 188px;
+    width: 100%;
+  }
+}
