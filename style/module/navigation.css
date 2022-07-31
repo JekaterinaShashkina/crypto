@@ -30,8 +30,7 @@
     align-items: flex-start;
   }
   .navigation__list_header {
-    padding-left: 15px;
-    padding-right: 15px;
+    padding: 7px 15px;
   }
 
   .navigation__item {

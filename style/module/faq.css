@@ -67,6 +67,10 @@
 }
 
 @media (max-width: 768px) {
+  .faq__title {
+    font-size: 30px;
+    line-height: 36px;
+  }
   .faq__question {
     font-size: 18px;
     line-height: 22px;
@@ -81,11 +85,16 @@
   }
 }
 @media (max-width: 480px) {
+  .faq__item {
+    border-radius: 10px;
+  }
   .faq__question {
+    font-weight: 400;
     font-size: 16px;
     line-height: 19px;
-    padding: 10px;
+    padding: 10px 7px;
   }
+
   .faq__question:after {
     width: 18px;
     height: 12px;

@@ -1,0 +1,26 @@
+.remark {
+  background: #08475e;
+  z-index: 998;
+}
+
+.remark__text {
+  padding: 18px 0;
+  font-family: "IBM Plex Sans";
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 21px;
+  text-align: center;
+  color: #ffffff;
+}
+
+@media (max-width: 1024px) {
+  .remark__text {
+    font-size: 12px;
+    line-height: 16px;
+  }
+}
+@media (max-width: 480px) {
+  .remark__text {
+    padding: 14px 0 15px;
+  }
+}
